@@ -1,0 +1,454 @@
+[
+  {
+    "id": 1,
+    "name": {"en":"Common Cold","hi":"साधारण जुकाम","pa":"ਸਧਾਰਣ ਜ਼ੁਕਾਮ"},
+    "symptoms":{"en":["sneezing","runny nose","cough","mild fever"],"hi":["छींक","नाक बहना","खांसी","हल्का बुखार"],"pa":["ਛੀਂਕ","ਨੱਕ ਵਹਿੰਦਾ","ਖੰਘ","ਹਲਕਾ ਬੁਖਾਰ"]},
+    "cause":{"en":"Viral infection of the upper respiratory tract","hi":"ऊपरी श्वसन मार्ग का वायरल संक्रमण","pa":"ਉੱਪਰੀ ਸਾਹ ਰਾਹ ਦੀ ਵਾਇਰਲ ਇਨਫੈਕਸ਼ਨ"},
+    "doctor":{"en":"General Physician","hi":"सामान्य चिकित्सक","pa":"ਜਨਰਲ ਫ਼ਿਜ਼ੀਸ਼ਨ"},
+    "remedy":{"en":"Rest, fluids, steam inhalation","hi":"आराम, तरल पदार्थ, भाप","pa":"ਆਰਾਮ, ਪਾਣੀ, ਭਾਫ"},
+    "emergency":false
+  },
+  {
+    "id": 2,
+    "name":{"en":"Influenza","hi":"इन्फ्लूएंजा","pa":"ਇਨਫਲੂਐਂਜ਼ਾ"},
+    "symptoms":{"en":["high fever","body aches","chills","fatigue","cough"],"hi":["तेज़ बुखार","बदन दर्द","कंपकपी","थकान","खांसी"],"pa":["ਤੇਜ਼ ਬੁਖਾਰ","ਸਰੀਰ ਦਰਦ","ਕੰਪਕਪੀ","ਥਕਾਵਟ","ਖੰਘ"]},
+    "cause":{"en":"Influenza virus infection","hi":"इन्फ्लूएंजा वायरस संक्रमण","pa":"ਇਨਫਲੂਐਂਜ਼ਾ ਵਾਇਰਸ ਇਨਫੈਕਸ਼ਨ"},
+    "doctor":{"en":"General Physician / Infectious Disease","hi":"सामान्य चिकित्सक / संक्रामक रोग विशेषज्ञ","pa":"ਜਨਰਲ ਫ਼ਿਜ਼ੀਸ਼ਨ / ਸੰਕਰਾਮਕ ਰੋਗ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Rest, hydration, monitor breathing","hi":"आराम, पानी पिएँ, साँस जांचें","pa":"ਆਰਾਮ, ਪਾਣੀ ਪੀਓ, ਸਾਹ ਵੇਖੋ"},
+    "emergency":false
+  },
+  {
+    "id":3,
+    "name":{"en":"COVID-19","hi":"कोविड-19","pa":"ਕੋਵਿਡ-19"},
+    "symptoms":{"en":["fever","dry cough","fatigue","loss of taste","loss of smell"],"hi":["बुखार","सूखी खांसी","थकान","स्वाद की कमी","गंध की कमी"],"pa":["ਬੁਖਾਰ","ਸੁੱਕੀ ਖੰਘ","ਥਕਾਵਟ","ਸਵਾਦ ਘੱਟ","ਗੰਧ ਘੱਟ"]},
+    "cause":{"en":"SARS-CoV-2 virus infection","hi":"SARS-CoV-2 वायरस संक्रमण","pa":"SARS-CoV-2 ਵਾਇਰਸ ਇਨਫੈਕਸ਼ਨ"},
+    "doctor":{"en":"Infectious Disease Specialist","hi":"संक्रामक रोग विशेषज्ञ","pa":"ਸੰਕਰਾਮਕ ਰੋਗ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Isolation, hydration, seek medical care if severe","hi":"अलग रहें, पानी पिएँ, गंभीर होने पर डॉक्टर से मिलें","pa":"ਇਕਾਂਤਵਾਸ, ਪਾਣੀ ਪੀਓ, ਗੰਭੀਰ ਹੋਵੇ ਤਾਂ ਡਾਕਟਰ ਕੋਲ ਜਾਓ"},
+    "emergency":true
+  },
+  {
+    "id":4,
+    "name":{"en":"Malaria","hi":"मलेरिया","pa":"ਮਲੇਰੀਆ"},
+    "symptoms":{"en":["fever","chills","sweating","headache","nausea"],"hi":["बुखार","कंपकपी","पसीना","सिरदर्द","मतली"],"pa":["ਬੁਖਾਰ","ਕੰਪਕਪੀ","ਪਸੀਨਾ","ਸਿਰ ਦਰਦ","ਮਤਲੀ"]},
+    "cause":{"en":"Plasmodium parasite via mosquito bite","hi":"मच्छर द्वारा प्लास्मोडियम परजीवी","pa":"ਮੱਛਰ ਦੇ ਕਟਣ ਨਾਲ ਪਲਾਸਮੋਡੀਅਮ ਪਰਾਜੀਵੀ"},
+    "doctor":{"en":"Physician / Infectious Disease","hi":"चिकित्सक / संक्रामक रोग विशेषज्ञ","pa":"ਡਾਕਟਰ / ਸੰਕਰਾਮਕ ਰੋਗ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Antimalarial drugs, rest, hydration","hi":"मलेरिया की दवाइयाँ, आराम, पानी पिएँ","pa":"ਮਲੇਰੀਆ ਦੀਆਂ ਦਵਾਈਆਂ, ਆਰਾਮ, ਪਾਣੀ ਪੀਓ"},
+    "emergency":true
+  },
+  {
+    "id":5,
+    "name":{"en":"Dengue Fever","hi":"डेंगू बुखार","pa":"ਡੈਂਗੂ ਬੁਖਾਰ"},
+    "symptoms":{"en":["high fever","headache","muscle pain","rash","nausea"],"hi":["तेज़ बुखार","सिरदर्द","मांसपेशियों में दर्द","दाने","मतली"],"pa":["ਤੇਜ਼ ਬੁਖਾਰ","ਸਿਰ ਦਰਦ","ਸਰੀਰ ਦਰਦ","ਦਾਣੇ","ਮਤਲੀ"]},
+    "cause":{"en":"Dengue virus via mosquito bite","hi":"मच्छर द्वारा डेंगू वायरस","pa":"ਮੱਛਰ ਦੇ ਕਟਣ ਨਾਲ ਡੈਂਗੂ ਵਾਇਰਸ"},
+    "doctor":{"en":"Physician","hi":"चिकित्सक","pa":"ਡਾਕਟਰ"},
+    "remedy":{"en":"Rest, fluids, paracetamol; seek hospital if severe","hi":"आराम, तरल पदार्थ, पैरासिटामोल; गंभीर हो तो अस्पताल जाएँ","pa":"ਆਰਾਮ, ਪਾਣੀ, ਪੈਰਾਸੀਟਾਮੋਲ; ਗੰਭੀਰ ਹੋਵੇ ਤਾਂ ਹਸਪਤਾਲ ਜਾਓ"},
+    "emergency":true
+  },
+  {
+    "id":6,
+    "name":{"en":"Stomach Flu","hi":"पेट का फ्लू","pa":"ਪੇਟ ਦਾ ਫਲੂ"},
+    "symptoms":{"en":["nausea","vomiting","diarrhea","abdominal pain","fever"],"hi":["मतली","उल्टी","दस्त","पेट दर्द","बुखार"],"pa":["ਮਤਲੀ","ਉਲਟੀ","ਦਸਤ","ਪੇਟ ਦਰਦ","ਬੁਖਾਰ"]},
+    "cause":{"en":"Viral gastroenteritis","hi":"वायरल गैस्ट्रोएंटेराइटिस","pa":"ਵਾਇਰਲ ਗੈਸਟ੍ਰੋਐਂਟਰਾਈਟਿਸ"},
+    "doctor":{"en":"Physician","hi":"चिकित्सक","pa":"ਡਾਕਟਰ"},
+    "remedy":{"en":"Hydration, rest, bland diet","hi":"पानी पिएँ, आराम, हल्का भोजन","pa":"ਪਾਣੀ ਪੀਓ, ਆਰਾਮ, ਹਲਕਾ ਖਾਣਾ"},
+    "emergency":false
+  },
+  {
+    "id":7,
+    "name":{"en":"Urinary Tract Infection","hi":"मूत्र मार्ग संक्रमण","pa":"ਪੇਸ਼ਾਬ ਨਲੀ ਦਾ ਸੰਕਰਮਣ"},
+    "symptoms":{"en":["burning urination","frequent urination","lower abdomen pain","fever"],"hi":["जलन, बार-बार पेशाब, पेट निचला दर्द, बुखार"],"pa":["ਜਲਣ, ਵਾਰ ਵਾਰ ਪੇਸ਼ਾਬ, ਪੇਟ ਦਰਦ, ਬੁਖਾਰ"]},
+    "cause":{"en":"Bacterial infection in urinary tract","hi":"मूत्र मार्ग में बैक्टीरिया संक्रमण","pa":"ਪੇਸ਼ਾਬ ਨਲੀ ਵਿੱਚ ਬੈਕਟੀਰੀਆ ਇਨਫੈਕਸ਼ਨ"},
+    "doctor":{"en":"Urologist","hi":"मूत्र रोग विशेषज्ञ","pa":"ਯੂਰੋਲੋਜਿਸਟ"},
+    "remedy":{"en":"Antibiotics, hydration, rest","hi":"एंटीबायोटिक, पानी पिएँ, आराम","pa":"ਐਂਟੀਬਾਇਓਟਿਕ, ਪਾਣੀ ਪੀਓ, ਆਰਾਮ"},
+    "emergency":false
+  },
+  {
+    "id":8,
+    "name":{"en":"Migraine","hi":"माइग्रेन","pa":"ਮਾਈਗ੍ਰੇਨ"},
+    "symptoms":{"en":["headache","nausea","sensitivity to light","sensitivity to sound"],"hi":["सिरदर्द","मतली","रोशनी से संवेदनशीलता","ध्वनि संवेदनशीलता"],"pa":["ਸਿਰ ਦਰਦ","ਮਤਲੀ","ਰੌਸ਼ਨੀ ਤੇ ਸੰਵੇਦਨਸ਼ੀਲਤਾ","ਸ਼ੋਰ ਸੰਵੇਦਨਸ਼ੀਲਤਾ"]},
+    "cause":{"en":"Neurological disorder affecting brain blood vessels","hi":"मस्तिष्क की रक्त वाहिकाओं को प्रभावित करने वाला न्यूरोलॉजिकल विकार","pa":"ਦਿਮਾਗ ਦੀਆਂ ਰਕਤ ਨਲੀਆਂ ਨਾਲ ਸੰਬੰਧਿਤ ਨਰੋਲੌਜਿਕ ਸਮੱਸਿਆ"},
+    "doctor":{"en":"Neurologist","hi":"न्यूरोलॉजिस्ट","pa":"ਨਿਊਰੋਲੋਜਿਸਟ"},
+    "remedy":{"en":"Pain relief, rest, hydration","hi":"दर्द निवारण, आराम, पानी पिएँ","pa":"ਦਰਦ ਦੂਰ ਕਰੋ, ਆਰਾਮ, ਪਾਣੀ ਪੀਓ"},
+    "emergency":false
+  },
+  {
+    "id":9,
+    "name":{"en":"Gastroenteritis","hi":"गैस्ट्रोएंटेराइटिस","pa":"ਗੈਸਟਰੋਐਂਟਰਾਈਟਿਸ"},
+    "symptoms":{"en":["diarrhea","vomiting","abdominal pain","fever"],"hi":["दस्त","उल्टी","पेट दर्द","बुखार"],"pa":["ਦਸਤ","ਉਲਟੀ","ਪੇਟ ਦਰਦ","ਬੁਖਾਰ"]},
+    "cause":{"en":"Bacterial or viral infection in stomach","hi":"पेट में बैक्टीरिया या वायरस संक्रमण","pa":"ਪੇਟ ਵਿੱਚ ਬੈਕਟੀਰੀਆ ਜਾਂ ਵਾਇਰਸ ਇਨਫੈਕਸ਼ਨ"},
+    "doctor":{"en":"Physician","hi":"चिकित्सक","pa":"ਡਾਕਟਰ"},
+    "remedy":{"en":"Hydration, bland diet, rest","hi":"पानी पिएँ, हल्का भोजन, आराम","pa":"ਪਾਣੀ ਪੀਓ, ਹਲਕਾ ਖਾਣਾ, ਆਰਾਮ"},
+    "emergency":false
+  },
+  {
+    "id":10,
+    "name":{"en":"Chickenpox","hi":"चिकनपॉक्स","pa":"ਚਿਕਨਪੌਕਸ"},
+    "symptoms":{"en":["fever","rash","itching","fatigue"],"hi":["बुखार","दाने","खुजली","थकान"],"pa":["ਬੁਖਾਰ","ਦਾਣੇ","ਖੁਜਲੀ","ਥਕਾਵਟ"]},
+    "cause":{"en":"Varicella-zoster virus infection","hi":"वारिसेला-ज़ोस्टर वायरस संक्रमण","pa":"ਵੈਰੀਸੈੱਲਾ-ਜ਼ੋਸਟਰ ਵਾਇਰਸ ਇਨਫੈਕਸ਼ਨ"},
+    "doctor":{"en":"Physician","hi":"चिकित्सक","pa":"ਡਾਕਟਰ"},
+    "remedy":{"en":"Rest, antihistamines, hydration","hi":"आराम, एंटीहिस्टामिन, पानी पिएँ","pa":"ਆਰਾਮ, ਐਂਟੀਹਿਸਟਾਮਿਨ, ਪਾਣੀ ਪੀਓ"},
+    "emergency":false
+  },
+  {
+    "id":11,
+    "name":{"en":"Bronchitis","hi":"ब्रॉन्काइटिस","pa":"ਬ੍ਰੋਂਕਾਈਟਿਸ"},
+    "symptoms":{"en":["cough","sputum","fever","chest discomfort"],"hi":["खांसी","बलगम","बुखार","छाती में दर्द"],"pa":["ਖੰਘ","ਬਲਗਮ","ਬੁਖਾਰ","ਛਾਤੀ ਦਰਦ"]},
+    "cause":{"en":"Inflammation of bronchial tubes","hi":"ब्रॉन्कियल ट्यूब्स में सूजन","pa":"ਬ੍ਰੋਂਕਾਈਅਲ ਟਿਊਬਸ ਵਿੱਚ ਸੂਜਨ"},
+    "doctor":{"en":"Pulmonologist","hi":"फुफ्फुसीय रोग विशेषज्ञ","pa":"ਫੁਫ਼ਫੁਸ ਰੋਗ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Rest, fluids, cough suppressants","hi":"आराम, तरल पदार्थ, खांसी की दवा","pa":"ਆਰਾਮ, ਪਾਣੀ, ਖੰਘ ਦੀ ਦਵਾਈ"},
+    "emergency":false
+  },
+  {
+    "id":12,
+    "name":{"en":"Asthma","hi":"दमा","pa":"ਅਸਥਮਾ"},
+    "symptoms":{"en":["wheezing","shortness of breath","chest tightness","cough"],"hi":["साँस में फूँक, साँस लेने में कठिनाई, छाती में दबाव, खांसी"],"pa":["ਹਵਾਂ ਫੂਕਣਾ, ਸਾਹ ਦੀ ਕਮੀ, ਛਾਤੀ ਤੰਗ, ਖੰਘ"]},
+    "cause":{"en":"Chronic airway inflammation","hi":"दीर्घकालिक श्वसन मार्ग की सूजन","pa":"ਲੰਬੇ ਸਮੇਂ ਵਾਲੀ ਸਾਸ ਦੀ ਸੜਨ"},
+    "doctor":{"en":"Pulmonologist","hi":"फुफ्फुसीय रोग विशेषज्ञ","pa":"ਫੁਫ਼ਫੁਸ ਰੋਗ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Inhalers, avoid triggers, medical care","hi":"इनहेलर, ट्रिगर से बचें, चिकित्सक से मिलें","pa":"ਇੰਹੇਲਰ, ਟ੍ਰਿਗਰ ਤੋਂ ਬਚੋ, ਡਾਕਟਰ ਕੋਲ ਜਾਓ"},
+    "emergency":true
+  },
+  {
+    "id":13,
+    "name":{"en":"Allergic Rhinitis","hi":"एलर्जिक राइनाइटिस","pa":"ਐਲਰਜਿਕ ਰਾਈਨਾਈਟਿਸ"},
+    "symptoms":{"en":["sneezing","runny nose","itchy eyes","congestion"],"hi":["छींक","नाक बहना","खुजली आँखें","नाक बंद"],"pa":["ਛੀਂਕ","ਨੱਕ ਵਹਿੰਦਾ","ਖੁਜਲੀ ਅੱਖਾਂ","ਨੱਕ ਰੁਕ"]},
+    "cause":{"en":"Allergic reaction to pollen or dust","hi":"पराग या धूल के कारण एलर्जी","pa":"ਪਰਾਗ ਜਾਂ ਧੂੜ ਨਾਲ ਐਲਰਜੀ"},
+    "doctor":{"en":"Allergist","hi":"एलर्जिस्ट","pa":"ਐਲਰਜਿਸਟ"},
+    "remedy":{"en":"Antihistamines, avoid triggers","hi":"एंटीहिस्टामिन, ट्रिगर से बचें","pa":"ਐਂਟੀਹਿਸਟਾਮਿਨ, ਟ੍ਰਿਗਰ ਤੋਂ ਬਚੋ"},
+    "emergency":false
+  },
+  {
+    "id":14,
+    "name":{"en":"Hypertension","hi":"उच्च रक्तचाप","pa":"ਉੱਚ ਰਕਤ ਦਬਾਅ"},
+    "symptoms":{"en":["headache","dizziness","blurred vision","chest pain"],"hi":["सिरदर्द","चक्कर","धुंधली दृष्टि","छाती में दर्द"],"pa":["ਸਿਰ ਦਰਦ","ਚੱਕਰ","ਧੁੰਦਲੀ ਦ੍ਰਿਸ਼ਟੀ","ਛਾਤੀ ਦਰਦ"]},
+    "cause":{"en":"High blood pressure due to various causes","hi":"विभिन्न कारणों से उच्च रक्तचाप","pa":"ਵੱਖ-ਵੱਖ ਕਾਰਨਾਂ ਕਰਕੇ ਉੱਚ ਰਕਤ ਦਬਾਅ"},
+    "doctor":{"en":"Cardiologist","hi":"हृदय रोग विशेषज्ञ","pa":"ਹਾਰਟ ਸਪੈਸ਼ਲਿਸਟ"},
+    "remedy":{"en":"Lifestyle changes, medication","hi":"जीवनशैली में बदलाव, दवा","pa":"ਲਾਈਫਸਟਾਈਲ ਬਦਲਾਅ, ਦਵਾਈ"},
+    "emergency":true
+  },
+  {
+    "id":15,
+    "name":{"en":"Diabetes","hi":"मधुमेह","pa":"ਮਧੁਮੇਹ"},
+    "symptoms":{"en":["frequent urination","thirst","fatigue","blurred vision"],"hi":["बार-बार पेशाब","प्यास","थकान","धुंधली दृष्टि"],"pa":["ਵਾਰ-ਵਾਰ ਪੇਸ਼ਾਬ","ਤ੍ਰਾਸ਼ਨਾ","ਥਕਾਵਟ","ਧੁੰਦਲੀ ਦ੍ਰਿਸ਼ਟੀ"]},
+    "cause":{"en":"Insulin deficiency or resistance","hi":"इंसुलिन की कमी या प्रतिरोध","pa":"ਇੰਸੁਲਿਨ ਘਾਟ ਜਾਂ ਰੋਧ"},
+    "doctor":{"en":"Endocrinologist","hi":"एंडोक्रिनोलॉजिस्ट","pa":"ਐਂਡੋਕ੍ਰਿਨੋਲੋਜਿਸਟ"},
+    "remedy":{"en":"Diet, exercise, medication","hi":"आहार, व्यायाम, दवा","pa":"ਖੁਰਾਕ, ਵਿਆਯਾਮ, ਦਵਾਈ"},
+    "emergency":true
+  },
+  {
+    "id":16,
+    "name":{"en":"Appendicitis","hi":"अपेंडिसाइटिस","pa":"ਐਪੈਂਡਿਸਾਈਟਿਸ"},
+    "symptoms":{"en":["abdominal pain","nausea","vomiting","fever"],"hi":["पेट दर्द","मतली","उल्टी","बुखार"],"pa":["ਪੇਟ ਦਰਦ","ਮਤਲੀ","ਉਲਟੀ","ਬੁਖਾਰ"]},
+    "cause":{"en":"Inflamed appendix","hi":"सूजी हुई अपेंडिक्स","pa":"ਸੂਜਿਆ ਐਪੈਂਡਿਕਸ"},
+    "doctor":{"en":"Surgeon","hi":"सर्जन","pa":"ਸਰਜਨ"},
+    "remedy":{"en":"Surgery required","hi":"शल्य चिकित्सा आवश्यक","pa":"ਸਰਜਰੀ ਦੀ ਲੋੜ"},
+    "emergency":true
+  },
+  {
+    "id":17,
+    "name":{"en":"Ear Infection","hi":"कान का संक्रमण","pa":"ਕਾਨ ਦਾ ਸੰਕਰਮਣ"},
+    "symptoms":{"en":["ear pain","fever","hearing loss","discharge"],"hi":["कान में दर्द","बुखार","सुनने में कमी","स्राव"],"pa":["ਕਾਨ ਦਰਦ","ਬੁਖਾਰ","ਸੁਣਨ ਦੀ ਕਮੀ","ਸਰਾਵ"]},
+    "cause":{"en":"Bacterial or viral infection in ear","hi":"कान में बैक्टीरिया या वायरस संक्रमण","pa":"ਕਾਨ ਵਿੱਚ ਬੈਕਟੀਰੀਆ ਜਾਂ ਵਾਇਰਸ ਇਨਫੈਕਸ਼ਨ"},
+    "doctor":{"en":"ENT Specialist","hi":"कान, नाक, गला विशेषज्ञ","pa":"ਈਐਨਟੀ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Antibiotics, pain relief","hi":"एंटीबायोटिक, दर्द निवारण","pa":"ਐਂਟੀਬਾਇਓਟਿਕ, ਦਰਦ ਦੂਰ ਕਰੋ"},
+    "emergency":false
+  },
+  {
+    "id":18,
+    "name":{"en":"Tonsillitis","hi":"टॉन्सिलिटिस","pa":"ਟਾਂਸਿਲਾਈਟਿਸ"},
+    "symptoms":{"en":["sore throat","fever","difficulty swallowing","swollen tonsils"],"hi":["गला दर्द","बुखार","निगलने में कठिनाई","सूजी हुई टॉन्सिल"],"pa":["ਗਲ੍ਹਾ ਦਰਦ","ਬੁਖਾਰ","ਨਿਗਲਣ ਵਿੱਚ ਮੁਸ਼ਕਲ","ਸੂਜੀ ਟਾਂਸਿਲ"]},
+    "cause":{"en":"Viral or bacterial infection of tonsils","hi":"टॉन्सिल्स का वायरल या बैक्टीरियल संक्रमण","pa":"ਟਾਂਸਿਲਾਂ ਦਾ ਵਾਇਰਲ ਜਾਂ ਬੈਕਟੀਰੀਆ ਇਨਫੈਕਸ਼ਨ"},
+    "doctor":{"en":"ENT Specialist","hi":"कान, नाक, गला विशेषज्ञ","pa":"ਈਐਨਟੀ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Rest, fluids, pain relief","hi":"आराम, पानी पिएँ, दर्द निवारण","pa":"ਆਰਾਮ, ਪਾਣੀ ਪੀਓ, ਦਰਦ ਦੂਰ ਕਰੋ"},
+    "emergency":false
+  },
+  {
+    "id":19,
+    "name":{"en":"Sinusitis","hi":"साइनसिटिस","pa":"ਸਾਈਨਸਾਈਟਿਸ"},
+    "symptoms":{"en":["facial pain","nasal congestion","headache","fever"],"hi":["चेहरे में दर्द","नाक बंद","सिरदर्द","बुखार"],"pa":["ਮੁੱਖ ਦਰਦ","ਨੱਕ ਰੁਕ","ਸਿਰ ਦਰਦ","ਬੁਖਾਰ"]},
+    "cause":{"en":"Inflammation of sinuses","hi":"साइनस की सूजन","pa":"ਸਾਈਨਸ ਦੀ ਸੂਜਨ"},
+    "doctor":{"en":"ENT Specialist","hi":"कान, नाक, गला विशेषज्ञ","pa":"ਈਐਨਟੀ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Rest, nasal sprays, pain relief","hi":"आराम, नेज़ल स्प्रे, दर्द निवारण","pa":"ਆਰਾਮ, ਨੱਕ ਸਪ੍ਰੇ, ਦਰਦ ਦੂਰ ਕਰੋ"},
+    "emergency":false
+  },
+  {
+    "id":20,
+    "name":{"en":"Pneumonia","hi":"न्यूमोनिया","pa":"ਨਿਊਮੋਨੀਆ"},
+    "symptoms":{"en":["cough","fever","shortness of breath","chest pain"],"hi":["खांसी","बुखार","साँस की कमी","छाती में दर्द"],"pa":["ਖੰਘ","ਬੁਖਾਰ","ਸਾਹ ਦੀ ਕਮੀ","ਛਾਤੀ ਦਰਦ"]},
+    "cause":{"en":"Bacterial or viral infection in lungs","hi":"फेफड़ों में बैक्टीरिया या वायरस संक्रमण","pa":"ਫੇਫੜਿਆਂ ਵਿੱਚ ਬੈਕਟੀਰੀਆ ਜਾਂ ਵਾਇਰਸ ਇਨਫੈਕਸ਼ਨ"},
+    "doctor":{"en":"Pulmonologist","hi":"फुफ्फुसीय रोग विशेषज्ञ","pa":"ਫੁਫ਼ਫੁਸ ਰੋਗ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Antibiotics, rest, hydration","hi":"एंटीबायोटिक, आराम, पानी पिएँ","pa":"ਐਂਟੀਬਾਇਓਟਿਕ, ਆਰਾਮ, ਪਾਣੀ ਪੀਓ"},
+    "emergency":true
+  },
+  {
+    "id":21,
+    "name":{"en":"Chickenpox","hi":"चिकनपॉक्स","pa":"ਚਿਕਨਪੌਕਸ"},
+    "symptoms":{"en":["fever","rash","itching","fatigue"],"hi":["बुखार","दाने","खुजली","थकान"],"pa":["ਬੁਖਾਰ","ਦਾਣੇ","ਖੁਜਲੀ","ਥਕਾਵਟ"]},
+    "cause":{"en":"Varicella-zoster virus infection","hi":"वारिसेला-ज़ोस्टर वायरस संक्रमण","pa":"ਵੈਰੀਸੈੱਲਾ-ਜ਼ੋਸਟਰ ਵਾਇਰਸ ਇਨਫੈਕਸ਼ਨ"},
+    "doctor":{"en":"Physician","hi":"चिकित्सक","pa":"ਡਾਕਟਰ"},
+    "remedy":{"en":"Rest, hydration, antihistamines","hi":"आराम, पानी पिएँ, एंटीहिस्टामिन","pa":"ਆਰਾਮ, ਪਾਣੀ ਪੀਓ, ਐਂਟੀਹਿਸਟਾਮਿਨ"},
+    "emergency":false
+  },
+  {
+    "id":22,
+    "name":{"en":"Conjunctivitis","hi":"नेत्रश्लेष्मलाशोथ","pa":"ਅੱਖਾਂ ਦਾ ਇਨਫੈਕਸ਼ਨ"},
+    "symptoms":{"en":["red eyes","itchiness","tearing","discharge"],"hi":["लाल आँखें","खुजली","आँसू","स्राव"],"pa":["ਲਾਲ ਅੱਖਾਂ","ਖੁਜਲੀ","ਅੰਸੂ","ਸਰਾਵ"]},
+    "cause":{"en":"Bacterial or viral eye infection","hi":"बैक्टीरियल या वायरल संक्रमण","pa":"ਬੈਕਟੀਰੀਆ ਜਾਂ ਵਾਇਰਲ ਇਨਫੈਕਸ਼ਨ"},
+    "doctor":{"en":"Ophthalmologist","hi":"नेत्र विशेषज्ञ","pa":"ਆਖਾਂ ਦਾ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Eye drops, hygiene, rest","hi":"आँख की दवा, सफाई, आराम","pa":"ਅੱਖਾਂ ਦੀ ਦਵਾਈ, ਸਫਾਈ, ਆਰਾਮ"},
+    "emergency":false
+  },
+  {
+    "id":23,
+    "name":{"en":"Chickenpox Complication","hi":"चिकनपॉक्स जटिलता","pa":"ਚਿਕਨਪੌਕਸ ਦੀ ਜਟਿਲਤਾ"},
+    "symptoms":{"en":["high fever","severe rash","breathing difficulty"],"hi":["उच्च बुखार","गंभीर दाने","साँस लेने में कठिनाई"],"pa":["ਉੱਚ ਬੁਖਾਰ","ਗੰਭੀਰ ਦਾਣੇ","ਸਾਹ ਲੈਣ ਵਿੱਚ ਮੁਸ਼ਕਲ"]},
+    "cause":{"en":"Secondary bacterial infection or pneumonia","hi":"दूसरी बैक्टीरियल संक्रमण या न्यूमोनिया","pa":"ਦੂਜਾ ਬੈਕਟੀਰੀਆ ਇਨਫੈਕਸ਼ਨ ਜਾਂ ਨਿਊਮੋਨੀਆ"},
+    "doctor":{"en":"Physician / Pulmonologist","hi":"चिकित्सक / फुफ्फुसीय रोग विशेषज्ञ","pa":"ਡਾਕਟਰ / ਫੁਫ਼ਫੁਸ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Hospital care, antibiotics","hi":"अस्पताल में इलाज, एंटीबायोटिक","pa":"ਹਸਪਤਾਲ ਵਿੱਚ ਇਲਾਜ, ਐਂਟੀਬਾਇਓਟਿਕ"},
+    "emergency":true
+  },
+  {
+    "id":24,
+    "name":{"en":"Skin Allergy","hi":"त्वचा की एलर्जी","pa":"ਚਮੜੀ ਐਲਰਜੀ"},
+    "symptoms":{"en":["redness","itching","swelling","rash"],"hi":["लालिमा","खुजली","सूजन","दाने"],"pa":["ਲਾਲਪਨ","ਖੁਜਲੀ","ਸੋਜ","ਦਾਣੇ"]},
+    "cause":{"en":"Allergic reaction to substances","hi":"किसी पदार्थ से एलर्जी प्रतिक्रिया","pa":"ਕਿਸੇ ਪਦਾਰਥ ਨਾਲ ਐਲਰਜੀ ਪ੍ਰਤੀਕ੍ਰਿਆ"},
+    "doctor":{"en":"Dermatologist","hi":"त्वचा विशेषज्ञ","pa":"ਚਮੜੀ ਦਾ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Antihistamines, topical creams","hi":"एंटीहिस्टामिन, क्रीम","pa":"ਐਂਟੀਹਿਸਟਾਮਿਨ, ਕ੍ਰੀਮ"},
+    "emergency":false
+  },
+  {
+    "id":25,
+    "name":{"en":"Eczema","hi":"एक्जिमा","pa":"ਇਕਜ਼ੀਮਾ"},
+    "symptoms":{"en":["dry skin","itching","red patches"],"hi":["सूखी त्वचा","खुजली","लाल धब्बे"],"pa":["ਸੁੱਕੀ ਚਮੜੀ","ਖੁਜਲੀ","ਲਾਲ ਧੱਬੇ"]},
+    "cause":{"en":"Chronic skin inflammation","hi":"दीर्घकालिक त्वचा की सूजन","pa":"ਲੰਬੇ ਸਮੇਂ ਵਾਲੀ ਚਮੜੀ ਦੀ ਸੜਨ"},
+    "doctor":{"en":"Dermatologist","hi":"त्वचा विशेषज्ञ","pa":"ਚਮੜੀ ਦਾ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Moisturizers, topical steroid creams","hi":"मॉइश्चराइज़र, स्टेरॉयड क्रीम","pa":"ਮੋਇਸ਼ਚਰਾਈਜ਼ਰ, ਸਟੇਰਾਇਡ ਕ੍ਰੀਮ"},
+    "emergency":false
+  },
+  {
+    "id":26,
+    "name":{"en":"Chickenpox Adult","hi":"वयस्क चिकनपॉक्स","pa":"ਵਧੇਰੇ ਉਮਰ ਵਾਲਾ ਚਿਕਨਪੌਕਸ"},
+    "symptoms":{"en":["severe rash","high fever","fatigue"],"hi":["गंभीर दाने","उच्च बुखार","थकान"],"pa":["ਗੰਭੀਰ ਦਾਣੇ","ਉੱਚ ਬੁਖਾਰ","ਥਕਾਵਟ"]},
+    "cause":{"en":"Varicella-zoster virus in adults","hi":"वयस्कों में वेरिसेला-जोस्टर वायरस","pa":"ਵਧੇਰੇ ਉਮਰ ਵਾਲੇ ਵੈਰੀਸੈੱਲਾ-ਜ਼ੋਸਟਰ ਵਾਇਰਸ"},
+    "doctor":{"en":"Physician","hi":"चिकित्सक","pa":"ਡਾਕਟਰ"},
+    "remedy":{"en":"Hospital care, antivirals","hi":"अस्पताल में इलाज, एंटीवायरल","pa":"ਹਸਪਤਾਲ ਵਿੱਚ ਇਲਾਜ, ਐਂਟੀਵਾਇਰਲ"},
+    "emergency":true
+  },
+  {
+    "id":27,
+    "name":{"en":"Hepatitis A","hi":"हेपेटाइटिस ए","pa":"ਹੈਪਾਟਾਈਟਿਸ ਏ"},
+    "symptoms":{"en":["fatigue","jaundice","nausea","abdominal pain"],"hi":["थकान","पीलिया","मतली","पेट दर्द"],"pa":["ਥਕਾਵਟ","ਪੀਲੀ","ਮਤਲੀ","ਪੇਟ ਦਰਦ"]},
+    "cause":{"en":"Hepatitis A virus infection via contaminated food/water","hi":"संक्रमित भोजन या पानी से हेपेटाइटिस ए वायरस संक्रमण","pa":"ਗੰਦੇ ਖਾਣ-ਪੀਣ ਜਾਂ ਪਾਣੀ ਰਾਹੀਂ ਹੈਪਾਟਾਈਟਿਸ ਏ ਵਾਇਰਸ ਇਨਫੈਕਸ਼ਨ"},
+    "doctor":{"en":"Hepatologist","hi":"जिगर विशेषज्ञ","pa":"ਜਿਗਰ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Rest, hydration, proper nutrition","hi":"आराम, पानी पिएँ, सही आहार","pa":"ਆਰਾਮ, ਪਾਣੀ ਪੀਓ, ਸਹੀ ਖੁਰਾਕ"},
+    "emergency":false
+  },
+  {
+    "id":28,
+    "name":{"en":"Hepatitis B","hi":"हेपेटाइटिस बी","pa":"ਹੈਪਾਟਾਈਟਿਸ ਬੀ"},
+    "symptoms":{"en":["fatigue","abdominal pain","dark urine","jaundice"],"hi":["थकान","पेट दर्द","गहरा पेशाब","पीलिया"],"pa":["ਥਕਾਵਟ","ਪੇਟ ਦਰਦ","ਗੂੜਾ ਪੇਸ਼ਾਬ","ਪੀਲੀ"]},
+    "cause":{"en":"Hepatitis B virus infection via blood/body fluids","hi":"रक्त/शरीर द्रव के माध्यम से हेपेटाइटिस बी वायरस संक्रमण","pa":"ਖੂਨ/ਸਰੀਰਕ ਤਰਲ ਦੇ ਰਾਹੀਂ ਹੈਪਾਟਾਈਟਿਸ ਬੀ ਵਾਇਰਸ"},
+    "doctor":{"en":"Hepatologist","hi":"जिगर विशेषज्ञ","pa":"ਜਿਗਰ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Medication, regular monitoring","hi":"दवा, नियमित जांच","pa":"ਦਵਾਈ, ਨਿਯਮਤ ਜਾਂਚ"},
+    "emergency":true
+  },
+  {
+    "id":29,
+    "name":{"en":"Kidney Stone","hi":"गुर्दा पत्थर","pa":"ਕਿਡਨੀ ਪੱਥਰ"},
+    "symptoms":{"en":["severe back pain","blood in urine","nausea","vomiting"],"hi":["तीव्र पीठ दर्द","पेशाब में खून","मतली","उल्टी"],"pa":["ਤੇਜ਼ ਪਿੱਠ ਦਰਦ","ਪੇਸ਼ਾਬ ਵਿੱਚ ਖੂਨ","ਮਤਲੀ","ਉਲਟੀ"]},
+    "cause":{"en":"Crystal formation in kidneys","hi":"गुर्दे में क्रिस्टल निर्माण","pa":"ਕਿਡਨੀ ਵਿੱਚ ਕ੍ਰਿਸਟਲ ਬਣਨ"},
+    "doctor":{"en":"Urologist","hi":"मूत्र रोग विशेषज्ञ","pa":"ਯੂਰੋਲੋਜਿਸਟ"},
+    "remedy":{"en":"Hydration, pain management, surgery if needed","hi":"पानी पिएँ, दर्द निवारण, जरुरत पड़ने पर शल्य चिकित्सा","pa":"ਪਾਣੀ ਪੀਓ, ਦਰਦ ਨਿਵਾਰਨ, ਜਰੂਰਤ ਪੈਣ ਤੇ ਸਰਜਰੀ"},
+    "emergency":true
+  },
+  {
+    "id":30,
+    "name":{"en":"Gallstones","hi":"पित्ताशय के पत्थर","pa":"ਗਾਲਸਟੋਨ"},
+    "symptoms":{"en":["upper abdominal pain","nausea","vomiting","indigestion"],"hi":["ऊपरी पेट दर्द","मतली","उल्टी","अपच"],"pa":["ਉੱਪਰੀ ਪੇਟ ਦਰਦ","ਮਤਲੀ","ਉਲਟੀ","ਪੇਟ ਖਰਾਬ"]},
+    "cause":{"en":"Solid particles in gallbladder","hi":"पित्ताशय में ठोस कण","pa":"ਗਾਲਬਲਾਡਰ ਵਿੱਚ ਠੋਸ ਕਣ"},
+    "doctor":{"en":"Gastroenterologist","hi":"पाचन विशेषज्ञ","pa":"ਪੇਟ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Surgery, dietary adjustments","hi":"शल्य चिकित्सा, आहार समायोजन","pa":"ਸਰਜਰੀ, ਖੁਰਾਕ ਵਿੱਚ ਬਦਲਾਅ"},
+    "emergency":true
+  },
+  {
+    "id":31,
+    "name":{"en":"Pneumothorax","hi":"वायुजनित फेफड़ा","pa":"ਪਨੂੰਮੋਥੋਰੈਕਸ"},
+    "symptoms":{"en":["sudden chest pain","shortness of breath","rapid heart rate"],"hi":["अचानक छाती में दर्द","साँस की कमी","तेज़ हृदय गति"],"pa":["ਅਚਾਨਕ ਛਾਤੀ ਦਰਦ","ਸਾਹ ਦੀ ਕਮੀ","ਤੇਜ਼ ਦਿਲ ਦੀ ਧੜਕਨ"]},
+    "cause":{"en":"Air leakage into chest cavity","hi":"छाती में हवा का रिसाव","pa":"ਛਾਤੀ ਵਿੱਚ ਹਵਾ ਦਾ ਰਿਸਾਓ"},
+    "doctor":{"en":"Pulmonologist","hi":"फुफ्फुसीय रोग विशेषज्ञ","pa":"ਫੁਫ਼ਫੁਸ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Oxygen therapy, chest tube","hi":"ऑक्सीजन थेरेपी, चेस्ट ट्यूब","pa":"ਆਕਸੀਜਨ ਥੈਰੇਪੀ, ਛਾਤੀ ਨਲੀ"},
+    "emergency":true
+  },
+  {
+    "id":32,
+    "name":{"en":"Anemia","hi":"एनीमिया","pa":"ਐਨੀਮੀਆ"},
+    "symptoms":{"en":["fatigue","pale skin","shortness of breath","dizziness"],"hi":["थकान","फीकी त्वचा","साँस की कमी","चक्कर"],"pa":["ਥਕਾਵਟ","ਫੀਕੀ ਚਮੜੀ","ਸਾਹ ਦੀ ਕਮੀ","ਚੱਕਰ"]},
+    "cause":{"en":"Low red blood cell count or hemoglobin","hi":"लाल रक्त कोशिका या हीमोग्लोबिन की कमी","pa":"ਲਾਲ ਰਕਤ ਕੋਸ਼ਿਕਾ ਜਾਂ ਹੇਮੋਗਲੋਬਿਨ ਘਾਟ"},
+    "doctor":{"en":"Hematologist","hi":"रक्त रोग विशेषज्ञ","pa":"ਖੂਨ ਦਾ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Iron supplements, diet changes","hi":"आयरन सप्लीमेंट, आहार परिवर्तन","pa":"ਆਇਰਨ ਸਪਲੀਮੈਂਟ, ਖੁਰਾਕ ਬਦਲਾਅ"},
+    "emergency":false
+  },
+  {
+    "id":33,
+    "name":{"en":"Osteoarthritis","hi":"ऑस्टियोआर्थराइटिस","pa":"ਓਸਟਿਓਆਰਥਰਾਈਟਿਸ"},
+    "symptoms":{"en":["joint pain","stiffness","swelling","reduced mobility"],"hi":["जोड़ों में दर्द","सख्ती","सूजन","गतिशीलता में कमी"],"pa":["ਜੋੜਾਂ ਵਿੱਚ ਦਰਦ","ਸਖ਼ਤੀ","ਸੋਜ","ਗਤੀਸ਼ੀਲਤਾ ਘੱਟ"]},
+    "cause":{"en":"Degeneration of joint cartilage","hi":"जोड़ के उपास्थि का क्षय","pa":"ਜੋੜਾਂ ਦੇ ਕਾਰਟੀਲੇਜ ਦਾ ਨਾਸ਼"},
+    "doctor":{"en":"Rheumatologist","hi":"रुमेटोलॉजिस्ट","pa":"ਰਿਊਮੈਟੋਲੋਜਿਸਟ"},
+    "remedy":{"en":"Pain relief, physiotherapy, joint support","hi":"दर्द निवारण, फिजियोथेरेपी, जोड़ का समर्थन","pa":"ਦਰਦ ਦੂਰ, ਫਿਜ਼ੀਓਥੈਰੇਪੀ, ਜੋੜ ਸਹਾਇਤਾ"},
+    "emergency":false
+  },
+  {
+    "id":34,
+    "name":{"en":"Rheumatoid Arthritis","hi":"रुमेटॉइड आर्थराइटिस","pa":"ਰਿਊਮੈਟਾਇਡ ਆਰਥਰਾਈਟਿਸ"},
+    "symptoms":{"en":["joint pain","swelling","stiffness","fatigue"],"hi":["जोड़ों में दर्द","सूजन","सख्ती","थकान"],"pa":["ਜੋੜ ਦਰਦ","ਸੋਜ","ਸਖ਼ਤੀ","ਥਕਾਵਟ"]},
+    "cause":{"en":"Autoimmune joint inflammation","hi":"स्वयं प्रतिरक्षा जोड़ की सूजन","pa":"ਆਟੋਇਮਿਊਨ ਜੋੜ ਸੂਜਨ"},
+    "doctor":{"en":"Rheumatologist","hi":"रुमेटोलॉजिस्ट","pa":"ਰਿਊਮੈਟੋਲੋਜਿਸਟ"},
+    "remedy":{"en":"Medication, physiotherapy, lifestyle changes","hi":"दवा, फिजियोथेरेपी, जीवनशैली में बदलाव","pa":"ਦਵਾਈ, ਫਿਜ਼ੀਓਥੈਰੇਪੀ, ਜੀਵਨ ਸ਼ੈਲੀ ਬਦਲਾਅ"},
+    "emergency":false
+  },
+  {
+    "id":35,
+    "name":{"en":"Gout","hi":"गठिया","pa":"ਗਾਊਟ"},
+    "symptoms":{"en":["sudden joint pain","swelling","redness","warmth"],"hi":["अचानक जोड़ दर्द","सूजन","लालिमा","गर्मी"],"pa":["ਅਚਾਨਕ ਜੋੜ ਦਰਦ","ਸੋਜ","ਲਾਲਪਨ","ਗਰਮੀ"]},
+    "cause":{"en":"Uric acid crystal accumulation","hi":"यूरिक एसिड क्रिस्टल संचय","pa":"ਯੂਰਿਕ ਐਸਿਡ ਕ੍ਰਿਸਟਲ ਇਕੱਠ"},
+    "doctor":{"en":"Rheumatologist","hi":"रुमेटोलॉजिस्ट","pa":"ਰਿਊਮੈਟੋਲੋਜਿਸਟ"},
+    "remedy":{"en":"Medication, dietary restrictions, hydration","hi":"दवा, आहार पर नियंत्रण, पानी पिएँ","pa":"ਦਵਾਈ, ਖੁਰਾਕ ਤੇ ਕੰਟਰੋਲ, ਪਾਣੀ ਪੀਓ"},
+    "emergency":false
+  },
+  {
+    "id":36,
+    "name":{"en":"Tuberculosis","hi":"क्षयरोग","pa":"ਟਿਬਰਕੁਲੋਸਿਸ"},
+    "symptoms":{"en":["cough lasting >2 weeks","fever","night sweats","weight loss"],"hi":["2 सप्ताह से अधिक खांसी","बुखार","रात में पसीना","वज़न घटना"],"pa":["2 ਹਫ਼ਤੇ ਤੋਂ ਵੱਧ ਖੰਘ","ਬੁਖਾਰ","ਰਾਤ ਵਿੱਚ ਪਸੀਨਾ","ਵਜ਼ਨ ਘਟਣਾ"]},
+    "cause":{"en":"Mycobacterium tuberculosis infection","hi":"माइकोबैक्टीरियम ट्यूबरकुलोसिस संक्रमण","pa":"ਮਾਇਕੋਬੈਕਟੀਰੀਅਮ ਟਿਊਬਰਕੁਲੋਸਿਸ ਇਨਫੈਕਸ਼ਨ"},
+    "doctor":{"en":"Pulmonologist / Infectious Disease","hi":"फुफ्फुसीय / संक्रामक रोग विशेषज्ञ","pa":"ਫੁਫ਼ਫੁਸ / ਸੰਕਰਾਮਕ ਰੋਗ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Antibiotics, strict medication adherence","hi":"एंटीबायोटिक, दवा का पालन","pa":"ਐਂਟੀਬਾਇਓਟਿਕ, ਦਵਾਈ ਪਾਲਣਾ"},
+    "emergency":true
+  },
+  {
+    "id":37,
+    "name":{"en":"Depression","hi":"अवसाद","pa":"ਡਿਪ੍ਰੈਸ਼ਨ"},
+    "symptoms":{"en":["persistent sadness","loss of interest","fatigue","sleep disturbance"],"hi":["लगातार उदासी","रुचि की कमी","थकान","नींद में गड़बड़ी"],"pa":["ਲਗਾਤਾਰ ਉਦਾਸੀ","ਰੁਚੀ ਘੱਟ","ਥਕਾਵਟ","ਨੀਦ ਵਿੱਚ ਗੜਬੜ"]},
+    "cause":{"en":"Biological, psychological, social factors","hi":"जैविक, मानसिक और सामाजिक कारण","pa":"ਜੈਵਿਕ, ਮਨੋਵੈज्ञानिक, ਸਮਾਜਿਕ ਕਾਰਕ"},
+    "doctor":{"en":"Psychiatrist","hi":"मनोचिकित्सक","pa":"ਮਨੋਚਿਕਿਤਸਕ"},
+    "remedy":{"en":"Therapy, medication, lifestyle changes","hi":"थेरेपी, दवा, जीवनशैली में बदलाव","pa":"ਥੈਰੇਪੀ, ਦਵਾਈ, ਜੀਵਨ ਸ਼ੈਲੀ ਬਦਲਾਅ"},
+    "emergency":false
+  },
+  {
+    "id":38,
+    "name":{"en":"Anxiety Disorder","hi":"चिंता विकार","pa":"ਚਿੰਤਾ ਰੋਗ"},
+    "symptoms":{"en":["excessive worry","restlessness","palpitations","sleep issues"],"hi":["अत्यधिक चिंता","बेचैनी","धड़कन","नींद की समस्या"],"pa":["ਅਤਿ ਚਿੰਤਾ","ਬੇਚੈਨੀ","ਧੜਕਨ","ਨੀਦ ਦੀ ਸਮੱਸਿਆ"]},
+    "cause":{"en":"Biological, psychological, social factors","hi":"जैविक, मानसिक और सामाजिक कारण","pa":"ਜੈਵਿਕ, ਮਨੋਵੈज्ञानिक, ਸਮਾਜਿਕ ਕਾਰਕ"},
+    "doctor":{"en":"Psychiatrist","hi":"मनोचिकित्सक","pa":"ਮਨੋਚਿਕਿਤਸਕ"},
+    "remedy":{"en":"Therapy, relaxation techniques, medication","hi":"थेरेपी, विश्राम तकनीक, दवा","pa":"ਥੈਰੇਪੀ, ਵਿਸ਼ਰਾਮ ਤਕਨੀਕ, ਦਵਾਈ"},
+    "emergency":false
+  },
+  {
+    "id":39,
+    "name":{"en":"Obesity","hi":"मोटापा","pa":"ਮੋਟਾਪਾ"},
+    "symptoms":{"en":["excess body weight","fatigue","joint pain","shortness of breath"],"hi":["अत्यधिक वजन","थकान","जोड़ों में दर्द","साँस की कमी"],"pa":["ਅਤਿ ਵਜ਼ਨ","ਥਕਾਵਟ","ਜੋੜ ਦਰਦ","ਸਾਹ ਦੀ ਕਮੀ"]},
+    "cause":{"en":"Excess calorie intake, sedentary lifestyle, genetics","hi":"अत्यधिक कैलोरी, गतिहीन जीवनशैली, आनुवंशिक कारण","pa":"ਅਤਿ ਕੈਲੋਰੀ ਖੁਰਾਕ, ਬੈਠਾਕ ਜੀਵਨਸ਼ੈਲੀ, ਵੰਸ਼ਾਣੁਕ ਕਾਰਕ"},
+    "doctor":{"en":"Nutritionist / Physician","hi":"पोषण विशेषज्ञ / चिकित्सक","pa":"ਪੋਸ਼ਣ ਵਿਸ਼ੇਸ਼ਜ / ਡਾਕਟਰ"},
+    "remedy":{"en":"Diet control, exercise, medical management","hi":"आहार नियंत्रण, व्यायाम, चिकित्सा प्रबंधन","pa":"ਖੁਰਾਕ ਕੰਟਰੋਲ, ਵਿਆਯਾਮ, ਦਵਾਈ ਇਲਾਜ"},
+    "emergency":false
+  },
+  {
+    "id":40,
+    "name":{"en":"Hyperthyroidism","hi":"अत्यधिक थायरॉइड","pa":"ਹਾਇਪਰਥਾਇਰੋਇਡਿਸਮ"},
+    "symptoms":{"en":["weight loss","rapid heartbeat","nervousness","sweating"],"hi":["वजन घटना","तेज़ हृदय गति","उद्वेग","पसीना"],"pa":["ਵਜ਼ਨ ਘਟਣਾ","ਤੇਜ਼ ਦਿਲ ਦੀ ਧੜਕਨ","ਘਬਰਾਹਟ","ਪਸੀਨਾ"]},
+    "cause":{"en":"Excess thyroid hormone production","hi":"थायरॉइड हार्मोन का अधिक उत्पादन","pa":"ਥਾਇਰਾਇਡ ਹਾਰਮੋਨ ਦਾ ਵੱਧ ਉਤਪਾਦਨ"},
+    "doctor":{"en":"Endocrinologist","hi":"एंडोक्रिनोलॉजिस्ट","pa":"ਐਂਡੋਕ੍ਰਿਨੋਲੋਜਿਸਟ"},
+    "remedy":{"en":"Medication, radioactive iodine, surgery in rare cases","hi":"दवा, रेडियोधर्मी आयोडीन, दुर्लभ मामलों में शल्य चिकित्सा","pa":"ਦਵਾਈ, ਰੇਡੀਓਐਕਟਿਵ ਆਇਓਡੀਨ, ਦੁਲਭ ਮਾਮਲਿਆਂ ਵਿੱਚ ਸਰਜਰੀ"},
+    "emergency":true
+  },
+  {
+    "id":41,
+    "name":{"en":"Hypothyroidism","hi":"अल्प थायरॉइड","pa":"ਹਾਈਪੋਥਾਇਰੋਇਡਿਸਮ"},
+    "symptoms":{"en":["fatigue","weight gain","cold intolerance","dry skin"],"hi":["थकान","वजन बढ़ना","ठंड सहन नहीं कर पाना","सूखी त्वचा"],"pa":["ਥਕਾਵਟ","ਵਜ਼ਨ ਵਧਣਾ","ਠੰਡ ਸਹਿਣ ਨਾ ਕਰਨਾ","ਸੁੱਕੀ ਚਮੜੀ"]},
+    "cause":{"en":"Low thyroid hormone production","hi":"थायरॉइड हार्मोन का कम उत्पादन","pa":"ਥਾਇਰਾਇਡ ਹਾਰਮੋਨ ਦਾ ਘੱਟ ਉਤਪਾਦਨ"},
+    "doctor":{"en":"Endocrinologist","hi":"एंडोक्रिनोलॉजिस्ट","pa":"ਐਂਡੋਕ੍ਰਿਨੋਲੋਜਿਸਟ"},
+    "remedy":{"en":"Hormone replacement therapy, monitoring","hi":"हार्मोन प्रतिस्थापन, निगरानी","pa":"ਹਾਰਮੋਨ ਬਦਲਾਅ ਥੈਰੇਪੀ, ਨਿਗਰਾਨੀ"},
+    "emergency":false
+  },
+  {
+    "id":42,
+    "name":{"en":"Chronic Kidney Disease","hi":"क्रॉनिक किडनी रोग","pa":"ਕ੍ਰਾਨਿਕ ਕਿਡਨੀ ਰੋਗ"},
+    "symptoms":{"en":["fatigue","swelling","nausea","urinary changes"],"hi":["थकान","सूजन","मतली","पेशाब में बदलाव"],"pa":["ਥਕਾਵਟ","ਸੋਜ","ਮਤਲੀ","ਪੇਸ਼ਾਬ ਵਿੱਚ ਬਦਲਾਅ"]},
+    "cause":{"en":"Long-term damage to kidneys","hi":"गुर्दों का दीर्घकालिक नुकसान","pa":"ਕਿਡਨੀ ਦਾ ਲੰਬੇ ਸਮੇਂ ਦਾ ਨੁਕਸਾਨ"},
+    "doctor":{"en":"Nephrologist","hi":"नेफ्रोलॉजिस्ट","pa":"ਨੀਫਰੋਲੋਜਿਸਟ"},
+    "remedy":{"en":"Medication, dialysis, lifestyle management","hi":"दवा, डायलिसिस, जीवनशैली प्रबंधन","pa":"ਦਵਾਈ, ਡਾਇਲਿਸਿਸ, ਜੀਵਨਸ਼ੈਲੀ ਪ੍ਰਬੰਧਨ"},
+    "emergency":true
+  },
+  {
+    "id":43,
+    "name":{"en":"Asthma","hi":"दमा","pa":"ਦਮਾ"},
+    "symptoms":{"en":["wheezing","shortness of breath","chest tightness","coughing"],"hi":["साँस में सीटी जैसी आवाज","साँस की कमी","छाती में दबाव","खांसी"],"pa":["ਸਾਹ ਲੈਣ ਵਿੱਚ ਸਿੱਟੀ ਦੀ ਆਵਾਜ਼","ਸਾਹ ਦੀ ਕਮੀ","ਛਾਤੀ ਵਿੱਚ ਦਬਾਅ","ਖੰਘ"]},
+    "cause":{"en":"Airway inflammation and hyper-responsiveness","hi":"श्वास नली की सूजन और अतिसंवेदनशीलता","pa":"ਸਾਸ ਦੀ ਨਲੀ ਦੀ ਸੂਜਨ ਅਤੇ ਜ਼ਿਆਦਾ ਸੰਵੇਦਨਸ਼ੀਲਤਾ"},
+    "doctor":{"en":"Pulmonologist","hi":"फुफ्फुसीय रोग विशेषज्ञ","pa":"ਫੁਫ਼ਫੁਸ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Inhalers, avoiding triggers, medication","hi":"इनहेलर, ट्रिगर से बचें, दवा","pa":"ਇੰਹੇਲਰ, ਟ੍ਰਿਗਰ ਤੋਂ ਬਚੋ, ਦਵਾਈ"},
+    "emergency":true
+  },
+  {
+    "id":44,
+    "name":{"en":"COPD","hi":"क्रॉनिक ऑब्सट्रक्टिव पल्मोनरी डिज़ीज़","pa":"ਕ੍ਰਾਨਿਕ ਓਬਸਟ੍ਰਕਟਿਵ ਪਲਮੋਨਰੀ ਰੋਗ"},
+    "symptoms":{"en":["shortness of breath","chronic cough","mucus production","fatigue"],"hi":["साँस की कमी","क्रॉनिक खांसी","बलगम उत्पादन","थकान"],"pa":["ਸਾਹ ਦੀ ਕਮੀ","ਕ੍ਰਾਨਿਕ ਖੰਘ","ਮਿਊਕਸ ਉਤਪਾਦਨ","ਥਕਾਵਟ"]},
+    "cause":{"en":"Smoking, long-term lung damage","hi":"धूम्रपान, दीर्घकालिक फेफड़ों का नुकसान","pa":"ਸਿਗਰਟ, ਲੰਬੇ ਸਮੇਂ ਫੇਫੜੇ ਨੁਕਸਾਨ"},
+    "doctor":{"en":"Pulmonologist","hi":"फुफ्फुसीय रोग विशेषज्ञ","pa":"ਫੁਫ਼ਫੁਸ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Medication, oxygen therapy, lifestyle changes","hi":"दवा, ऑक्सीजन थेरेपी, जीवनशैली में बदलाव","pa":"ਦਵਾਈ, ਆਕਸੀਜਨ ਥੈਰੇਪੀ, ਜੀਵਨਸ਼ੈਲੀ ਬਦਲਾਅ"},
+    "emergency":true
+  },
+  {
+    "id":45,
+    "name":{"en":"Bronchitis","hi":"ब्रोंकाइटिस","pa":"ਬ੍ਰੋਂਕਾਈਟਿਸ"},
+    "symptoms":{"en":["cough","mucus","fatigue","shortness of breath"],"hi":["खांसी","बलगम","थकान","साँस की कमी"],"pa":["ਖੰਘ","ਮਿਊਕਸ","ਥਕਾਵਟ","ਸਾਹ ਦੀ ਕਮੀ"]},
+    "cause":{"en":"Viral or bacterial infection of bronchial tubes","hi":"ब्रोंकियल नलियों का वायरल या बैक्टीरियल संक्रमण","pa":"ਬ੍ਰੋਂਕਾਇਲ ਟਿਊਬਾਂ ਦਾ ਵਾਇਰਲ ਜਾਂ ਬੈਕਟੀਰੀਆਲ ਇਨਫੈਕਸ਼ਨ"},
+    "doctor":{"en":"Pulmonologist","hi":"फुफ्फुसीय रोग विशेषज्ञ","pa":"ਫੁਫ਼ਫੁਸ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Rest, fluids, medication","hi":"आराम, पानी पिएँ, दवा","pa":"ਆਰਾਮ, ਪਾਣੀ ਪੀਓ, ਦਵਾਈ"},
+    "emergency":false
+  },
+  {
+    "id":46,
+    "name":{"en":"Inflammatory Bowel Disease","hi":"सूजन आंत्र रोग","pa":"ਸੋਜ ਅੰਤੜੀ ਰੋਗ"},
+    "symptoms":{"en":["abdominal pain","diarrhea","weight loss","fatigue"],"hi":["पेट दर्द","दस्त","वज़न घटना","थकान"],"pa":["ਪੇਟ ਦਰਦ","ਦਸਤ","ਵਜ਼ਨ ਘਟਣਾ","ਥਕਾਵਟ"]},
+    "cause":{"en":"Chronic inflammation of GI tract","hi":"आंत्र मार्ग की दीर्घकालिक सूजन","pa":"ਜਠਰਾਂਤ੍ਰ ਪਥ ਦੀ ਲੰਬੇ ਸਮੇਂ ਦੀ ਸੋਜ"},
+    "doctor":{"en":"Gastroenterologist","hi":"पाचन विशेषज्ञ","pa":"ਪੇਟ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Medication, diet, monitoring","hi":"दवा, आहार, निगरानी","pa":"ਦਵਾਈ, ਖੁਰਾਕ, ਨਿਗਰਾਨੀ"},
+    "emergency":false
+  },
+  {
+    "id":47,
+    "name":{"en":"Peptic Ulcer","hi":"पेट का अल्सर","pa":"ਪੇਪਟਿਕ ਅਲਸਰ"},
+    "symptoms":{"en":["abdominal pain","bloating","nausea","vomiting"],"hi":["पेट दर्द","फुलापन","मतली","उल्टी"],"pa":["ਪੇਟ ਦਰਦ","ਫੁਲਾਪਨ","ਮਤਲੀ","ਉਲਟੀ"]},
+    "cause":{"en":"H. pylori infection or NSAIDs use","hi":"एच. पाइलोरी संक्रमण या एनएसएआईडी का उपयोग","pa":"ਐਚ. ਪਾਈਲੋਰੀ ਇਨਫੈਕਸ਼ਨ ਜਾਂ ਐਨਐਸਏਆਈਡੀਸ ਦਾ ਇਸਤੇਮਾਲ"},
+    "doctor":{"en":"Gastroenterologist","hi":"पाचन विशेषज्ञ","pa":"ਪੇਟ ਵਿਸ਼ੇਸ਼ਜ"},
+    "remedy":{"en":"Medication, diet changes, avoiding triggers","hi":"दवा, आहार परिवर्तन, ट्रिगर से बचें","pa":"ਦਵਾਈ, ਖੁਰਾਕ ਬਦਲਾਅ, ਟ੍ਰਿਗਰ ਤੋਂ ਬਚੋ"},
+    "emergency":false
+  },
+  {
+    "id":48,
+    "name":{"en":"Appendicitis","hi":"अपेंडिसाइटिस","pa":"ਅਪੇਂਡਿਕਸ ਇਨਫੈਕਸ਼ਨ"},
+    "symptoms":{"en":["abdominal pain","nausea","vomiting","fever"],"hi":["पेट दर्द","मतली","उल्टी","बुखार"],"pa":["ਪੇਟ ਦਰਦ","ਮਤਲੀ","ਉਲਟੀ","ਬੁਖਾਰ"]},
+    "cause":{"en":"Inflammation of appendix","hi":"अपेंडिक्स की सूजन","pa":"ਅਪੇਂਡਿਕਸ ਦੀ ਸੋਜ"},
+    "doctor":{"en":"Surgeon","hi":"सर्जन","pa":"ਸਰਜਨ"},
+    "remedy":{"en":"Surgical removal","hi":"शल्य चिकित्सा से हटाना","pa":"ਸਰਜਰੀ ਦੁਆਰਾ ਹਟਾਉਣਾ"},
+    "emergency":true
+  },
+  {
+    "id":49,
+    "name":{"en":"Migraine","hi":"माइग्रेन","pa":"ਮਾਈਗ੍ਰੇਨ"},
+    "symptoms":{"en":["headache","nausea","sensitivity to light/sound","visual disturbances"],"hi":["सिरदर्द","मतली","प्रकाश/ध्वनि संवेदनशीलता","दृष्टि विकार"],"pa":["ਸਿਰਦਰਦ","ਮਤਲੀ","ਰੋਸ਼ਨੀ/ਆਵਾਜ਼ ਸੰਵੇਦਨਸ਼ੀਲਤਾ","ਦ੍ਰਿਸ਼ਟੀ ਸਮੱਸਿਆਵਾਂ"]},
+    "cause":{"en":"Neurological disorder triggered by stimuli","hi":"उत्तेजक से न्यूरोलॉजिकल विकार","pa":"ਉੱਤੇਜਕ ਨਾਲ ਨਿਊਰੋਲੋਜਿਕ ਰੋਗ"},
+    "doctor":{"en":"Neurologist","hi":"न्यूरोलॉजिस्ट","pa":"ਨਿਊਰੋਲੋਜਿਸਟ"},
+    "remedy":{"en":"Medication, lifestyle adjustments, triggers avoidance","hi":"दवा, जीवनशैली में बदलाव, ट्रिगर से बचें","pa":"ਦਵਾਈ, ਜੀਵਨਸ਼ੈਲੀ ਬਦਲਾਅ, ਟ੍ਰਿਗਰ ਤੋਂ ਬਚੋ"},
+    "emergency":false
+  },
+  {
+    "id":50,
+    "name":{"en":"Epilepsy","hi":"मिर्गी","pa":"ਮਿਰਗੀ"},
+    "symptoms":{"en":["seizures","confusion","loss of consciousness","staring spells"],"hi":["दौरे","भ्रम","चेतना की हानि","घूरना"],"pa":["ਦੌਰੇ","ਭ੍ਰਮ","ਚੇਤਨਾ ਗੁੰਮ ਹੋਣਾ","ਟੱਕਰਾਉਣਾ"]},
+    "cause":{"en":"Abnormal electrical activity in brain","hi":"मस्तिष्क में असामान्य विद्युत गतिविधि","pa":"ਦਿਮਾਗ ਵਿੱਚ ਅਸਧਾਰਣ ਬਿਜਲੀ ਸਰਗਰਮੀ"},
+    "doctor":{"en":"Neurologist","hi":"न्यूरोलॉजिस्ट","pa":"ਨਿਊਰੋਲੋਜਿਸਟ"},
+    "remedy":{"en":"Medication, lifestyle precautions, monitoring","hi":"दवा, जीवनशैली सावधानियां, निगरानी","pa":"ਦਵਾਈ, ਜੀਵਨਸ਼ੈਲੀ ਸਾਵਧਾਨੀ, ਨਿਗਰਾਨੀ"},
+    "emergency":true
+  }
+]
+
+
