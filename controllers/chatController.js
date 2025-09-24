@@ -1,4 +1,4 @@
-const Disease = require("../models/Disease");
+const Disease = require ("../models/Disease");
 
 const chatController = async (req, res) => {
   try {

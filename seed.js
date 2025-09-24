@@ -1,30 +1,33 @@
 const dotenv = require("dotenv");
 const connectDB = require("./config/db");
 const Disease = require("./models/Disease");
-const Medicine = require("./models/Medicine"); // ✅ Add this line
+const Medicine = require("./models/Medicine");
 
 const diseases = require("./data/Disease.json");
 const medicines = require("./data/Medicine.json");
 
 dotenv.config();
-connectDB();
 
-const importData = async () => {
+const seedData = async () => {
   try {
-    // Clear old data
+    
+    await connectDB();
+
+ 
     await Disease.deleteMany();
     await Medicine.deleteMany();
 
-    // Insert new data
+   
     await Disease.insertMany(diseases);
     await Medicine.insertMany(medicines);
 
     console.log("✅ Disease & Medicine Data Seeded!");
-    process.exit();
+    process.exit(0);
   } catch (error) {
-    console.error(error);
+    console.error("❌ Seeding Failed:", error.message);
     process.exit(1);
   }
 };
 
-importData();
+// Run seeding
+seedData();

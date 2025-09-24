@@ -62,7 +62,7 @@
     "remedy":{"en":"Antibiotics, hydration, rest","hi":"एंटीबायोटिक, पानी पिएँ, आराम","pa":"ਐਂਟੀਬਾਇਓਟਿਕ, ਪਾਣੀ ਪੀਓ, ਆਰਾਮ"},
     "emergency":false
   },
-  {
+  {   
     "id":8,
     "name":{"en":"Migraine","hi":"माइग्रेन","pa":"ਮਾਈਗ੍ਰੇਨ"},
     "symptoms":{"en":["headache","nausea","sensitivity to light","sensitivity to sound"],"hi":["सिरदर्द","मतली","रोशनी से संवेदनशीलता","ध्वनि संवेदनशीलता"],"pa":["ਸਿਰ ਦਰਦ","ਮਤਲੀ","ਰੌਸ਼ਨੀ ਤੇ ਸੰਵੇਦਨਸ਼ੀਲਤਾ","ਸ਼ੋਰ ਸੰਵੇਦਨਸ਼ੀਲਤਾ"]},
