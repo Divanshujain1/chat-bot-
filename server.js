@@ -13,7 +13,6 @@ connectDB();
 
 const app = express();
 
-
 app.use(express.json());
 
 const allowedOrigins = process.env.ALLOWED_ORIGINS?.split(",") || ["*"];
@@ -36,18 +35,20 @@ app.use("/api/medicines", medicineRoutes);
 // Error handler
 app.use(errorHandler);
 
-// ✅ Serve frontend only in production
+// Serve frontend in production
 if (process.env.NODE_ENV === "production") {
   const frontendPath = path.join(__dirname, "../frontend/build");
   app.use(express.static(frontendPath));
 
- app.get('/*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-});
-
+  // Correct fallback route for React
+  app.get(/.*/, (req, res) => {
+    res.sendFile(path.join(frontendPath, "index.html"));
+  });
 }
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () =>
-  console.log(`🚀 Server running in ${process.env.NODE_ENV} mode at http://localhost:${PORT}`)
+  console.log(
+    `🚀 Server running in ${process.env.NODE_ENV} mode at http://localhost:${PORT}`
+  )
 );
