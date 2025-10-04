@@ -279,7 +279,7 @@
       const text = symptomsEl.value.trim();
       if(!text){ alert(STRINGS[currentLang].noinput); return; }
       renderUserMessage(text);
-      fetch('http://localhost:5000/api/chat',{
+      fetch(`${API_BASE}/api/chat`,{
         method:'POST',
         headers:{'Content-Type':'application/json'},
         body:JSON.stringify({symptoms:text,lang:currentLang})
@@ -329,7 +329,9 @@
     });
 
     setLanguage(currentLang);
+    
   </script>
+  <script src="js/config.js"></script>
 </body>
 </html>
 
