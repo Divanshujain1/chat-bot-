@@ -9,10 +9,13 @@ const medicineRoutes = require("./routes/medicineRoutes");
 const errorHandler = require("./middleware/errorHandler");
 
 dotenv.config();
+
+// Connect to MongoDB
 connectDB();
 
 const app = express();
 
+// Middleware
 app.use(express.json());
 
 const allowedOrigins = process.env.ALLOWED_ORIGINS?.split(",") || ["*"];
@@ -36,17 +39,18 @@ app.use("/api/medicines", medicineRoutes);
 app.use(errorHandler);
 
 // Serve frontend in production
-//if (process.env.NODE_ENV === "production") {
-  //const frontendPath = path.join(__dirname, "../frontend/build");
-  // app.use(express.static(frontendPath));
+if (process.env.NODE_ENV === "production") {
+  const frontendPath = path.join(__dirname, "../frontend/build");
+  app.use(express.static(frontendPath));
 
   // Correct fallback route for React
-  //app.get(/.*/, (req, res) => {
-    //res.sendFile(path.join(frontendPath, "index.html"));
-  //});
-//}
+  app.get(/.*/, (req, res) => {
+    res.sendFile(path.join(frontendPath, "index.html"));
+  });
+}
 
+// Render sets PORT dynamically
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, "0.0.0.0", () => {
-  console.log(`🚀 Server running in production mode on port ${PORT}`);
+  console.log(`🚀 Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);
 });
